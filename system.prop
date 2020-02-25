@@ -1,0 +1,6 @@
+ro.display.series=motorola g8 power
+ro.product.board=trinket
+ro.board.platform=trinket
+ro.build.version.release=9
+ro.build.version.security_patch=2099-12-31
+vendor.gatekeeper.disable_spu=true
