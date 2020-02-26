@@ -139,6 +139,42 @@ on init
     start time_daemon
     setprop crypto.ready 1
 
+on early-init
+    insmod /sbin/modules/arizona-ldo1.ko
+    insmod /sbin/modules/arizona-micsupp.ko
+    insmod /sbin/modules/aw8695.ko
+    insmod /sbin/modules/cirrus_cs35l41.ko
+    insmod /sbin/modules/cirrus_cs48l32.ko
+    insmod /sbin/modules/cirrus_irq-tacna.ko
+    insmod /sbin/modules/cirrus_pinctrl-tacna.ko
+    insmod /sbin/modules/cirrus_playback.ko
+    insmod /sbin/modules/cirrus_tacna.ko
+    insmod /sbin/modules/cirrus_tacna-core.ko
+    insmod /sbin/modules/cirrus_wm_adsp.ko
+    insmod /sbin/modules/ets_fps_mmi.ko
+    insmod /sbin/modules/exfat.ko
+    insmod /sbin/modules/focaltech_0flash_mmi.ko
+    insmod /sbin/modules/fpc1020_mmi.ko
+    insmod /sbin/modules/gpio-tacna.ko
+    insmod /sbin/modules/himax_v2_mmi.ko
+    insmod /sbin/modules/himax_v2_mmi_hx83112.ko
+    insmod /sbin/modules/mmi_annotate.ko
+    insmod /sbin/modules/mmi_info.ko
+    insmod /sbin/modules/mmi_sys_temp.ko
+    insmod /sbin/modules/moto_f_usbnet.ko
+    insmod /sbin/modules/mpq-adapter.ko
+    insmod /sbin/modules/mpq-dmx-hw-plugin.ko
+    insmod /sbin/modules/qpnp-smbcharger-mmi.ko
+    insmod /sbin/modules/rdbg.ko
+    insmod /sbin/modules/sensors_class.ko
+    insmod /sbin/modules/stmvl53l0.ko
+    insmod /sbin/modules/sx933x_sar.ko
+    insmod /sbin/modules/tps61280.ko
+    insmod /sbin/modules/tzlog_dump.ko
+    insmod /sbin/modules/utags.ko
+    insmod /sbin/modules/watchdog_cpu_ctx.ko
+    insmod /sbin/modules/watchdogtest.ko
+
 on property:crypto.ready=0
     stop sbinqseecomd
     stop keymaster-4-0

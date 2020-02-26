@@ -1,0 +1,67 @@
+/vendor/lib/modules/audio_adsp_loader.ko: /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
+/vendor/lib/modules/audio_stub.ko:
+/vendor/lib/modules/mmi_info.ko: /vendor/lib/modules/mmi_annotate.ko
+/vendor/lib/modules/audio_tx_macro.ko: /vendor/lib/modules/audio_swr_ctrl.ko /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_swr.ko /vendor/lib/modules/audio_wcd_core.ko /vendor/lib/modules/audio_bolero_cdc.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
+/vendor/lib/modules/mpq-adapter.ko:
+/vendor/lib/modules/audio_wcd9xxx.ko: /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_wcd_core.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
+/vendor/lib/modules/watchdog_cpu_ctx.ko: /vendor/lib/modules/mmi_info.ko /vendor/lib/modules/mmi_annotate.ko
+/vendor/lib/modules/audio_wcd937x_slave.ko: /vendor/lib/modules/audio_swr.ko
+/vendor/lib/modules/audio_q6_notifier.ko: /vendor/lib/modules/audio_q6_pdr.ko
+/vendor/lib/modules/audio_wcd_core.ko:
+/vendor/lib/modules/audio_wglink.ko:
+/vendor/lib/modules/himax_v2_mmi_hx83112.ko:
+/vendor/lib/modules/audio_cpe_lsm.ko: /vendor/lib/modules/audio_wcd_cpe.ko /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_wcd_core.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
+/vendor/lib/modules/audio_snd_event.ko:
+/vendor/lib/modules/utags.ko:
+/vendor/lib/modules/qpnp-smbcharger-mmi.ko:
+/vendor/lib/modules/cirrus_pinctrl-tacna.ko:
+/vendor/lib/modules/audio_wcd_cpe.ko: /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_wcd_core.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
+/vendor/lib/modules/audio_rx_macro.ko: /vendor/lib/modules/audio_swr_ctrl.ko /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_swr.ko /vendor/lib/modules/audio_wcd_core.ko /vendor/lib/modules/audio_bolero_cdc.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
+/vendor/lib/modules/cirrus_tacna.ko:
+/vendor/lib/modules/audio_wcd9335.ko: /vendor/lib/modules/audio_mbhc.ko /vendor/lib/modules/audio_wcd9xxx.ko /vendor/lib/modules/audio_wcd_cpe.ko /vendor/lib/modules/audio_swr_ctrl.ko /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_swr.ko /vendor/lib/modules/audio_wcd_core.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
+/vendor/lib/modules/audio_swr_ctrl.ko: /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_swr.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
+/vendor/lib/modules/sensors_class.ko:
+/vendor/lib/modules/aw8695.ko:
+/vendor/lib/modules/mmi_annotate.ko:
+/vendor/lib/modules/rdbg.ko:
+/vendor/lib/modules/audio_va_macro.ko: /vendor/lib/modules/audio_bolero_cdc.ko /vendor/lib/modules/audio_snd_event.ko
+/vendor/lib/modules/audio_usf.ko: /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
+/vendor/lib/modules/audio_bolero_cdc.ko: /vendor/lib/modules/audio_snd_event.ko
+/vendor/lib/modules/audio_wsa_macro.ko: /vendor/lib/modules/audio_swr_ctrl.ko /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_swr.ko /vendor/lib/modules/audio_wcd_core.ko /vendor/lib/modules/audio_bolero_cdc.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
+/vendor/lib/modules/mmi_sys_temp.ko:
+/vendor/lib/modules/moto_f_usbnet.ko:
+/vendor/lib/modules/arizona-micsupp.ko:
+/vendor/lib/modules/audio_wcd934x.ko: /vendor/lib/modules/audio_mbhc.ko /vendor/lib/modules/audio_wcd9xxx.ko /vendor/lib/modules/audio_swr_ctrl.ko /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_swr.ko /vendor/lib/modules/audio_wcd_core.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
+/vendor/lib/modules/audio_apr.ko: /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
+/vendor/lib/modules/watchdogtest.ko:
+/vendor/lib/modules/cirrus_playback.ko: /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
+/vendor/lib/modules/cirrus_wm_adsp.ko:
+/vendor/lib/modules/audio_native.ko: /vendor/lib/modules/audio_platform.ko /vendor/lib/modules/cirrus_playback.ko /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
+/vendor/lib/modules/audio_platform.ko: /vendor/lib/modules/cirrus_playback.ko /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
+/vendor/lib/modules/gpio-tacna.ko:
+/vendor/lib/modules/audio_q6_pdr.ko:
+/vendor/lib/modules/cirrus_tacna-core.ko:
+/vendor/lib/modules/qca_cld3_wlan.ko:
+/vendor/lib/modules/audio_hdmi.ko:
+/vendor/lib/modules/tps61280.ko:
+/vendor/lib/modules/audio_q6.ko: /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
+/vendor/lib/modules/fpc1020_mmi.ko:
+/vendor/lib/modules/audio_machine_trinket.ko: /vendor/lib/modules/audio_wcd937x.ko /vendor/lib/modules/audio_wsa_macro.ko /vendor/lib/modules/audio_wcd934x.ko /vendor/lib/modules/audio_wsa881x.ko /vendor/lib/modules/audio_wcd9335.ko /vendor/lib/modules/audio_mbhc.ko /vendor/lib/modules/audio_wcd9xxx.ko /vendor/lib/modules/audio_wcd_cpe.ko /vendor/lib/modules/audio_swr_ctrl.ko /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_swr.ko /vendor/lib/modules/audio_wcd_core.ko /vendor/lib/modules/audio_bolero_cdc.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
+/vendor/lib/modules/sx933x_sar.ko: /vendor/lib/modules/sensors_class.ko
+/vendor/lib/modules/cirrus_cs35l41.ko: /vendor/lib/modules/cirrus_wm_adsp.ko
+/vendor/lib/modules/cirrus_cs48l32.ko: /vendor/lib/modules/cirrus_irq-tacna.ko /vendor/lib/modules/cirrus_tacna.ko /vendor/lib/modules/cirrus_wm_adsp.ko
+/vendor/lib/modules/tzlog_dump.ko: /vendor/lib/modules/mmi_info.ko /vendor/lib/modules/mmi_annotate.ko
+/vendor/lib/modules/audio_swr.ko:
+/vendor/lib/modules/audio_wcd937x.ko: /vendor/lib/modules/audio_mbhc.ko /vendor/lib/modules/audio_wcd9xxx.ko /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_swr.ko /vendor/lib/modules/audio_wcd_core.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
+/vendor/lib/modules/stmvl53l0.ko:
+/vendor/lib/modules/focaltech_0flash_mmi.ko:
+/vendor/lib/modules/himax_v2_mmi.ko:
+/vendor/lib/modules/audio_wcd_spi.ko:
+/vendor/lib/modules/mpq-dmx-hw-plugin.ko: /vendor/lib/modules/mpq-adapter.ko
+/vendor/lib/modules/audio_wsa881x.ko: /vendor/lib/modules/audio_swr.ko /vendor/lib/modules/audio_wcd_core.ko
+/vendor/lib/modules/ets_fps_mmi.ko:
+/vendor/lib/modules/arizona-ldo1.ko:
+/vendor/lib/modules/audio_mbhc.ko:
+/vendor/lib/modules/exfat.ko:
+/vendor/lib/modules/cirrus_irq-tacna.ko:
+/vendor/lib/modules/audio_pinctrl_wcd.ko:
