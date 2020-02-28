@@ -130,6 +130,7 @@ on boot
     setprop sys.usb.config adb
     write /proc/touchpanel/gesture_enable 1
     write /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pmi8998@2:qcom,qpnp-smb2/power_supply/usb/otg_switch 1
+    start load_ts_firmware
 
 on init
     start logd
@@ -138,23 +139,6 @@ on init
     start prepdecrypt
     start time_daemon
     setprop crypto.ready 1
-    start load_ts_firmware
-
-on early-init
-    insmod /sbin/modules/aw8695.ko
-    insmod /sbin/modules/focaltech_0flash_mmi.ko
-    insmod /sbin/modules/fpc1020_mmi.ko
-    insmod /sbin/modules/gpio-tacna.ko
-    insmod /sbin/modules/himax_v2_mmi_hx83112.ko
-    insmod /sbin/modules/himax_v2_mmi.ko
-    insmod /sbin/modules/mmi_sys_temp.ko
-    insmod /sbin/modules/moto_f_usbnet.ko
-    insmod /sbin/modules/qpnp-smbcharger-mmi.ko
-    insmod /sbin/modules/sensors_class.ko
-    insmod /sbin/modules/stmvl53l0.ko
-    insmod /sbin/modules/sx933x_sar.ko
-    insmod /sbin/modules/tps61280.ko
-    insmod /sbin/modules/watchdog_cpu_ctx.ko
 
 on property:crypto.ready=0
     stop sbinqseecomd
