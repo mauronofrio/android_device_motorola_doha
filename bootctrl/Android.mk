@@ -1,7 +1,7 @@
 ifeq ($(AB_OTA_UPDATER),true)
 # TODO:  Find a better way to separate build configs for ADP vs non-ADP devices
 ifneq ($(BOARD_IS_AUTOMOTIVE),true)
-ifneq ($(filter msm8953 msm8996 msm8998 sdm845,$(TARGET_BOARD_PLATFORM)),)
+ifneq ($(filter msm8953 msm8996 msm8998 sdm845 trinket,$(TARGET_BOARD_PLATFORM)),)
 LOCAL_PATH := $(call my-dir)
 
 # HAL Shared library for the target. Used by libhardware.
