@@ -2,13 +2,21 @@
 
 
 SLOT=`getprop ro.boot.slot_suffix`
-mount /dev/block/bootdevice/by-name/vendor$SLOT /vendor -o ro
+bootmode=$(getprop ro.boot.fastboot)
 
-if [ -d /vendor/lib/modules ]; then
-    module_path=/vendor/lib/modules
-else
+if [ ! -z "$bootmode" ]; then
     module_path=/sbin/modules
+else
+    mount /dev/block/bootdevice/by-name/vendor$SLOT /v -o ro
+
+    if [ -d /v/lib/modules ]; then
+        module_path=/v/lib/modules
+    else
+        module_path=/sbin/modules
+    fi
+
 fi
+
 
 touch_class_path=/sys/class/touchscreen
 touch_path=
@@ -29,7 +37,9 @@ insmod $module_path/stmvl53l0.ko
 insmod $module_path/sx933x_sar.ko
 insmod $module_path/tps61280.ko
 
-umount /vendor
+if [ -z "$bootmode" ]; then
+    umount /v
+fi
 
 cd $firmware_path
 for touch_product_string in $(ls $touch_class_path); do
